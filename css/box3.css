@@ -1,0 +1,27 @@
+.box3 .skill {
+  margin-top: 5em;
+  margin-left: 4em; }
+.box3 .info {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  text-align: center;
+  line-height: 1.4; }
+  .box3 .info .button {
+    margin-bottom: 20px;
+    display: block;
+    width: 128px;
+    height: 30px;
+    color: #ccc;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer; }
+    .box3 .info .button:hover {
+      background-color: #e0334a;
+      transition: all .6s linear; }
+
+/*# sourceMappingURL=box3.css.map */

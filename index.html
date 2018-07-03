@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web前端工程师</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/loading.css">
+  <link rel="stylesheet" href="./swiper/css/swiper-4.3.2.min.css">
+  <link rel="stylesheet" href="./swiper/css/animate.min.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/box1.css">
+  <link rel="stylesheet" href="./css/box3.css">
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <script src="./js/loading.js"></script>
+</head>
+
+<body>
+  <div id="loading">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_one"></div>
+      </div>
+    </div>
+  </div>
+  <div class="resume">
+    <img src="img/tou.jpeg" alt="头像">
+    <a href="李梦雨_web前端 .pdf">简历</a>
+  </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide box1">
+        <div class="intra">
+          <div class="title">
+            <h1>Welcome</br>To</br>Mengyu's Resume</h1>
+            <p>294801764@qq.com</p>
+          </div>
+          <div class="motto ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            <strong>量力而行</strong>
+            <strong>尽心无愧</strong>
+          </div>
+          <hr>
+          <h1>我叫李梦雨</h1>
+          <h3>一名前端开发工程师（新人一枚，请多关照）</h3>
+        </div>
+        <a href=""></a>
+        <canvas width="1360" height="645" style="position: absolute; top: 0;"></canvas>
+      </div>
+      <div class="swiper-slide box2 ani" data-swiper-parallax-scale="0.5" data-swiper-parallax-opacity="0.5">
+        <div class="intra">
+          <img src="./img/tou.jpeg" alt="照片" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s">
+          <div class="description ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay=".3s">
+            <p>您好，我叫李梦雨，坐标北京，是一名软件工程专业的应届毕业生，喜欢前端，所以自学的前端;有半年的前端实习经验，可以独立开发;实习期间做过移动端、PC端的项目，涉及教育、医疗领域，用过Vue脚手架，可以用ajax与后端做接口对接;可以熟练安装使用各种开发工具，可以使用svn进行项目管理;实习期间可以很快上手一个新的项目，遇到项目问题时会及时反应。善用Baidu、Google、Stack
+              Overflow解决问题;很感谢北京汉唐自远技术股份有限公司对我的栽培，遗憾的是实习期间没有接触过优化和兼容这方面的内容，技能还不成熟;目前的职业规划是SPA，正在学习ES6、Canvas以及Vue;正在求职中...
+            </p>
+            <p>热爱前端，执行力强，希望有一天可以自己搭建一个框架。</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide box3">
+        <div id="skill" class="skill" style="height: 360px; width: 460px;"></div>
+        <div class="info">
+          <a class="button" target="_blank" href="https://github.com/mengyulee">Github</a>
+          <a class="button" target="_blank" href="https://www.jianshu.com/u/1368d55ecc4e">简书</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    <!-- 音乐播放器 -->
+    <div class="W-yyue">
+      <audio id="x" src="./music/music.mp3" autoplay></audio>
+      <span class="demoSpan1" style="display: none;"></span>
+      <span class="demoSpan2" style="display: none;"></span>
+    </div>
+    <!-- 如果需要导航按钮 -->
+    <!-- <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-button-next"></div> -->
+
+    <!-- 如果需要滚动条 -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+  <script src="https://s4.ssl.qhres.com/!44fe6bef/spritejs.min.js"></script>
+  <script src="./swiper/js/swiper-4.3.2.min.js"></script>
+  <script src="./swiper/js/swiper.animate1.0.3.min.js"></script>
+  <script src="./js/initSwiper.js"></script>
+  <script src="./js/ctrlMusic.js"></script>
+  <script src="./js/echarts.min.js"></script>
+  <script src="./js/skill.js"></script>
+</body>
+<script src="./js/ban.js"></script>
+
+</html>

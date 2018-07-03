@@ -1,0 +1,121 @@
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  25% {
+    opacity: 25%;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 50%;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+.resume {
+  position: fixed;
+  margin: 20px;
+  width: 200px;
+  height: 60px;
+  border: 2px dashed #fff;
+  border-radius: 20px;
+  z-index: 6;
+  background: rgba(204, 204, 204, 0.473);
+  background: radial-gradient(circle at 0px 0px, white, transparent);
+  animation: show 1s linear 1s;
+}
+.resume img {
+  margin: 5px 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.resume a {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12px;
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.resume a:hover {
+  color: #f899a9;
+}
+
+.box1 .intra,
+.box2 .intra {
+  padding-top: 120px;
+  text-align: center;
+  z-index: 10;
+}
+.box1 .intra .title,
+.box2 .intra .title {
+  display: inline-block;
+  margin-bottom: 2em;
+  height: 8em;
+  width: 18em;
+  background-color: rgba(204, 204, 204, 0.795);
+  border-radius: .4em;
+  box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.699);
+}
+.box1 .intra .title h1,
+.box2 .intra .title h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(red), to(#8c00ff));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box1 .intra .title p,
+.box2 .intra .title p {
+  margin-top: 60px;
+  color: darksalmon;
+  font-size: 20px;
+}
+.box1 .intra img,
+.box2 .intra img {
+  margin-bottom: 40px;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+}
+.box1 .intra h1,
+.box1 .intra h3,
+.box1 .intra p,
+.box2 .intra h1,
+.box2 .intra h3,
+.box2 .intra p {
+  margin-bottom: 20px;
+}
+.box1 .intra hr,
+.box2 .intra hr {
+  margin: 10px auto 40px auto;
+  width: 60%;
+}
+.box1 .intra .description,
+.box2 .intra .description {
+  text-align: left;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(red), to(#8c00ff));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box1 .intra .description p,
+.box2 .intra .description p {
+  padding: 0 12em;
+  line-height: 1.6;
+  text-indent: 2em;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(red), to(#8c00ff));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box1 .intra .motto strong,
+.box2 .intra .motto strong {
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=box1.css.map */

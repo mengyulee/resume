@@ -1,0 +1,32 @@
+.box3{
+    // padding: 0 5em;
+    .skill {
+        margin-top: 5em;
+        margin-left: 4em;
+    }
+    .info {
+        position: absolute;
+        top: 50%;
+        right: 40%;
+        text-align: center;
+        line-height: 1.4;
+        .button {
+            margin-bottom: 20px;
+            display: block;
+            width: 128px;
+            height: 30px;
+            color: #ccc;
+            font-size: 20px;
+            background-color: transparent;
+            border: 2px solid #ccc;
+            border-radius: 1em;
+            outline: none;
+            text-decoration: none;
+            cursor: pointer;
+            &:hover {
+               background-color: rgb(224, 51, 74);
+               transition: all .6s linear;
+            }
+        }
+    }
+}
